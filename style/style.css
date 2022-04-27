@@ -1,0 +1,135 @@
+body{
+align-items:center;
+background-color:#000;
+display:flex;
+justify-content:center;
+height: 100%;
+}
+.submit{
+	background-color:#08d;
+	border-radius:12px;
+	border:0;
+	box-sizing:border-box;
+	color:#eee;
+	cursor:pointer;
+	font-size:18px;
+	height:50px;
+	margin-top:px;
+	//outline:0;
+	text-align:center;
+	width:100%;
+}
+.submit:activate{
+	background-color:#06b;
+}
+.form {
+background-color: #15172b;
+border-radius:20 px;
+box-sizing: border-box;
+height:700px;
+padding:20px;
+width:500px;
+}
+h2{
+color:#eee;
+font-family:sans-serif;
+font-size:36px;
+font-weight:600;
+margin-top:30px;
+}
+h3{
+color:#eee;
+font-family:sans-serif;
+font-size:16px;
+font-weight:600;
+margin-top:10px;
+
+}
+.input-container{
+height:50px;
+position:relative;
+width:80%;
+
+}
+.ic1{
+margin:40px;
+}
+
+.input{
+background-color:#303245;
+border-radius:12px;
+border:0;
+box-sizing:border-box;
+color:#eee;
+font-size:18px;
+height:100%;
+outline:0;
+padding:4px 20px 0;
+width: 100%;	
+}
+
+.cut-short
+{
+width:50px;
+}
+.kayit_form{
+	width:80%;
+	height:100%;
+	background-color:gray;
+}
+
+#ogrenci{
+	border-collapse:collapse; 
+	width:100%;
+}
+#ogrenci td, #ogrenci th{
+	border:1px solid #ddd;
+	padding:8px;
+}
+#ogrenci tr:nth-child(even){
+	background-color:#f2f2f2;
+}
+#ogrenci tr:hover{
+	background-color:red;
+	color:#fff;
+}
+#ogrenci th{
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align:center;
+	background-color:#2c3e50;
+	color:white;
+}
+#ogrenci2{
+	border-collapse:collapse; 
+	width:100%;
+    float:left;
+}
+#ogrenci2 td, #ogrenci2 th{
+	border:1px solid #ddd;
+	padding:8px;
+}
+#ogrenci2 tr:nth-child(even){
+	background-color:#f2f2f2;
+}
+#ogrenci2 tr:hover{
+	background-color:red;
+	color:#fff;
+}
+#ogrenci2 th{
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align:center;
+	background-color:#2c3e50;
+	color:white;
+}
+#ara{
+	float:left;
+}
+.container{
+width:50%;
+	height:300px;
+	overflow:auto;
+
+}
+
